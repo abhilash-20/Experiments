@@ -124,7 +124,7 @@ void test::add()
             cout << ",";
         }
     }
-    cout << ")"<<endl;
+    cout << ")" << endl;
     // exit(0);
 }
 void test::display()
