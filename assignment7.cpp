@@ -37,6 +37,14 @@ public:
         top--;
         return info;
     }
+    void display()
+    {
+        cout<<"Modified stack: "<<endl;
+        for(int i=top;i>=0;i--)
+        {
+            cout<<a[i]<<" ";
+        }
+    }
 };
 
 int main()
@@ -57,5 +65,6 @@ int main()
         int rem = a.pop();
         cout << rem << " has been removed." << endl;
     }
+    a.display();
     return 0;
 }
