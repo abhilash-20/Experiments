@@ -25,7 +25,7 @@ class STRING
 int main()
 {
     STRING s1("Abhi");
-    STRING s2("Swas");
+    STRING s2("Sheesh");
     int diff=s1-s2;
     cout<<"output is: "<<diff<<endl;
 }
