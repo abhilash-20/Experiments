@@ -39,11 +39,12 @@ public:
     }
     void display()
     {
-        cout<<"Modified stack: "<<endl;
+        cout<<"The stack: "<<endl;
         for(int i=top;i>=0;i--)
         {
             cout<<a[i]<<" ";
         }
+        cout<<endl;
     }
 };
 
@@ -52,12 +53,12 @@ int main()
     stacks<int> a;
     int add, del;
     cout << "Enter the number of elements you want to enter: " << endl;
-    ;
     cin >> add;
     for (int i = 0; i < add; i++)
     {
         a.push();
     }
+    a.display();
     cout << "Enter the number of elements you want to remove: " << endl;
     cin >> del;
     for (int i = 0; i < del; i++)
