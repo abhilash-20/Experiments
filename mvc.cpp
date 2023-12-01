@@ -33,7 +33,7 @@ class view
         }
         void displaystr()
         {
-            cout<<"Displayed by view class "<<s<<endl;
+            cout<<"Displayed by view class: "<<s<<endl;
         }
 };
 
@@ -58,7 +58,10 @@ class controller
 };
 int main()
 {
-    controller a("asdf");
+    string s;
+    cout<<"Enter a word: "<<endl;
+    cin>>s;
+    controller a(s);
     a.test();
     a.display();
     return 0;
